@@ -1,0 +1,44 @@
+{
+  "uploaded_files": [
+    {
+      "file": "split_1(1).txt",
+      "lines": 7981,
+      "focus": "Spring Core, DI, scopes, configuration, JUnit, Mockito, Spring testing"
+    },
+    {
+      "file": "split_2(1).txt",
+      "lines": 7981,
+      "focus": "Spring Boot, Spring AOP, JDBC, JPA, Spring Data, web-app introduction"
+    },
+    {
+      "file": "split_3(1).txt",
+      "lines": 7978,
+      "focus": "Servlets, JSP, Spring MVC, Eclipse, Maven, Gradle, Java new features"
+    }
+  ],
+  "new_question_count": 305,
+  "total_question_count": 675,
+  "exam_blueprint_questions": 60,
+  "new_difficulty_counts": {
+    "Easy": 68,
+    "Medium": 155,
+    "Hard": 82
+  },
+  "new_type_counts": {
+    "single": 204,
+    "multiple": 101
+  },
+  "categories": {
+    "Spring Core / Testing": 96,
+    "Testing": 42,
+    "Spring Boot": 26,
+    "Spring AOP": 26,
+    "Spring JDBC / JPA / Data": 25,
+    "Servlets / JSP / MVC": 33,
+    "Maven": 16,
+    "Gradle": 14,
+    "Eclipse": 8,
+    "Java New Features": 16,
+    "Microservices": 3
+  }
+}
