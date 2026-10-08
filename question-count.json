@@ -1,14 +1,14 @@
 {
-  "total_questions": 370,
+  "total_questions": 901,
   "exam_questions": 60,
   "exam_sections": 11,
   "difficulty_split": {
-    "easy": 74,
-    "medium": 185,
-    "hard": 111
+    "easy": 207,
+    "medium": 454,
+    "hard": 240
   },
   "question_types": {
-    "single": 250,
-    "multiple": 120
+    "single": 638,
+    "multiple": 263
   }
 }
