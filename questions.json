@@ -2747,7 +2747,7 @@
     ],
     "explanation": "Starters group dependencies needed for capabilities such as web applications or testing.",
     "topic": "Starter projects",
-    "category": "starter projects"
+    "category": "Spring Boot"
   },
   {
     "id": 149,
@@ -2765,7 +2765,7 @@
     ],
     "explanation": "The transcript explains that auto-configuration is driven by what is present on the classpath.",
     "topic": "Auto-configuration",
-    "category": "auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "id": 150,
@@ -2804,7 +2804,7 @@
     ],
     "explanation": "DevTools improves developer productivity through development-time restart/reload support.",
     "topic": "DevTools",
-    "category": "devtools"
+    "category": "Spring Boot"
   },
   {
     "id": 152,
@@ -2878,7 +2878,7 @@
     ],
     "explanation": "Embedded servers simplify deployment by bundling the server runtime with the application artifact in the Spring Boot model.",
     "topic": "Embedded servers",
-    "category": "embedded servers"
+    "category": "Spring Boot"
   },
   {
     "id": 156,
@@ -2916,7 +2916,7 @@
     ],
     "explanation": "The health endpoint exposes health/up status information.",
     "topic": "Actuator health",
-    "category": "actuator health"
+    "category": "Spring Boot"
   },
   {
     "id": 158,
@@ -2934,7 +2934,7 @@
     ],
     "explanation": "The metrics endpoint exposes application-related metrics.",
     "topic": "Actuator metrics",
-    "category": "actuator metrics"
+    "category": "Spring Boot"
   },
   {
     "id": 159,
@@ -2992,7 +2992,7 @@
     ],
     "explanation": "The transcript presents auto-configuration as convention/default setup driven by the application classpath.",
     "topic": "Auto-configuration flow",
-    "category": "auto-configuration flow"
+    "category": "Spring Boot"
   },
   {
     "id": 162,
@@ -3010,7 +3010,7 @@
     ],
     "explanation": "Profiles provide environment-specific configuration while keeping application code unchanged.",
     "topic": "Profiles application",
-    "category": "profiles application"
+    "category": "Spring Boot"
   },
   {
     "id": 163,
@@ -3030,7 +3030,7 @@
     ],
     "explanation": "The transcript introduces it specifically for complex application configuration such as service URLs, usernames and keys.",
     "topic": "Structured external configuration",
-    "category": "structured external configuration"
+    "category": "Spring Boot"
   },
   {
     "id": 164,
@@ -3048,7 +3048,7 @@
     ],
     "explanation": "The transcript contrasts the traditional WAR/external-server approach with Spring Boot's embedded-server model.",
     "topic": "WAR vs embedded server",
-    "category": "war vs embedded server"
+    "category": "Spring Boot"
   },
   {
     "id": 165,
@@ -3125,7 +3125,7 @@
     ],
     "explanation": "DevTools is introduced specifically to improve developer productivity during code changes.",
     "topic": "DevTools vs Actuator",
-    "category": "devtools vs actuator"
+    "category": "Spring Boot"
   },
   {
     "id": 169,
@@ -3145,7 +3145,7 @@
     ],
     "explanation": "The course presents Initializr, starters and auto-configuration as key conveniences; manual JAR copying is the older pain point Maven/Spring Boot avoid.",
     "topic": "Boot application setup",
-    "category": "boot application setup"
+    "category": "Spring Boot"
   },
   {
     "id": 170,
@@ -3181,7 +3181,7 @@
     ],
     "explanation": "JDBC is Java's standard database connectivity API.",
     "topic": "JDBC fundamentals",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 172,
@@ -3199,7 +3199,7 @@
     ],
     "explanation": "The cited sequence is load driver, connect, execute SQL, then process results.",
     "topic": "JDBC connection flow",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 173,
@@ -3217,7 +3217,7 @@
     ],
     "explanation": "The Spring JDBC lessons use `JdbcTemplate` to simplify database-access code.",
     "topic": "Spring JDBC",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 174,
@@ -3235,7 +3235,7 @@
     ],
     "explanation": "`RowMapper` converts a database row into the desired domain object.",
     "topic": "JDBC RowMapper",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 175,
@@ -3253,7 +3253,7 @@
     ],
     "explanation": "The JDBC examples implement `findById` by querying for the matching database row.",
     "topic": "JDBC query methods",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 176,
@@ -3274,7 +3274,7 @@
     ],
     "explanation": "The course walks through each of these basic data-access operations.",
     "topic": "Spring JDBC CRUD methods",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 177,
@@ -3310,7 +3310,7 @@
     ],
     "explanation": "JPA maps domain classes to database tables using entity annotations, with `@Entity` being the central marker.",
     "topic": "JPA entity mapping",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 179,
@@ -3328,7 +3328,7 @@
     ],
     "explanation": "JPA provides an object-relational mapping model so application code can work with entities rather than manually handling every row mapping.",
     "topic": "JPA purpose",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 180,
@@ -3348,7 +3348,7 @@
     ],
     "explanation": "The course moves from JDBC APIs and templates to JPA entities/repositories while continuing to access relational data.",
     "topic": "JDBC vs JPA",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 181,
@@ -3366,7 +3366,7 @@
     ],
     "explanation": "JPQL is JPA's query language used for entity-oriented queries.",
     "topic": "JPQL",
-    "category": "jpql"
+    "category": "Spring Boot"
   },
   {
     "id": 182,
@@ -3384,7 +3384,7 @@
     ],
     "explanation": "Spring Data JPA provides repository abstractions over JPA.",
     "topic": "Spring Data JPA",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 183,
@@ -3404,7 +3404,7 @@
     ],
     "explanation": "Repository abstractions provide reusable data-access behavior around persisted entities and reduce boilerplate.",
     "topic": "Repository abstraction",
-    "category": "repository abstraction"
+    "category": "Spring Boot"
   },
   {
     "id": 184,
@@ -3422,7 +3422,7 @@
     ],
     "explanation": "`deleteById` changes database state and therefore uses an update/delete operation.",
     "topic": "JDBC updates",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 185,
@@ -3442,7 +3442,7 @@
     ],
     "explanation": "The course's auto-configuration section emphasizes classpath-driven defaults, which can simplify common database setups.",
     "topic": "Boot auto-configuration with data access",
-    "category": "boot auto-configuration with data access"
+    "category": "Spring Boot"
   },
   {
     "id": 186,
@@ -3460,7 +3460,7 @@
     ],
     "explanation": "A row mapper defines how each result row is transformed into a domain object.",
     "topic": "Result mapping",
-    "category": "result mapping"
+    "category": "Spring Boot"
   },
   {
     "id": 187,
@@ -3480,7 +3480,7 @@
     ],
     "explanation": "The course presents these as progressively higher-level abstractions, not as a removal of relational database fundamentals.",
     "topic": "Data-access abstraction layers",
-    "category": "data-access abstraction layers"
+    "category": "Spring Boot"
   },
   {
     "id": 188,
@@ -3498,7 +3498,7 @@
     ],
     "explanation": "The application must establish the database interaction before it can execute a query and inspect its results.",
     "topic": "JDBC sequencing",
-    "category": "Spring JDBC / JPA / Data"
+    "category": "Spring Boot"
   },
   {
     "id": 189,
@@ -3516,7 +3516,7 @@
     ],
     "explanation": "H2 is used in the course as a lightweight database for demonstration/testing.",
     "topic": "H2 database",
-    "category": "h2 database"
+    "category": "Spring Boot"
   },
   {
     "id": 190,
@@ -3536,7 +3536,7 @@
     ],
     "explanation": "INSERT, UPDATE and DELETE modify database state; SELECT reads data.",
     "topic": "SQL operation classification",
-    "category": "sql operation classification"
+    "category": "Spring Boot"
   },
   {
     "id": 191,
@@ -3554,7 +3554,7 @@
     ],
     "explanation": "JPQL is oriented around JPA entities and their properties rather than raw table rows alone.",
     "topic": "JPQL entity orientation",
-    "category": "jpql entity orientation"
+    "category": "Spring Boot"
   },
   {
     "id": 192,
@@ -3575,7 +3575,7 @@
     ],
     "explanation": "The transcript explicitly progresses through JDBC, Spring JDBC, JPA and Spring Data.",
     "topic": "Database technology stack",
-    "category": "database technology stack"
+    "category": "Spring Boot"
   },
   {
     "id": 193,
@@ -3593,7 +3593,7 @@
     ],
     "explanation": "Object-relational mapping connects application objects/entities with relational database data.",
     "topic": "ORM",
-    "category": "orm"
+    "category": "Spring Boot"
   },
   {
     "id": 194,
@@ -3613,7 +3613,7 @@
     ],
     "explanation": "`findById` is a retrieval operation; its concrete implementation may issue a database query beneath the repository abstraction.",
     "topic": "Repository query semantics",
-    "category": "repository query semantics"
+    "category": "Spring Boot"
   },
   {
     "id": 195,
@@ -3649,7 +3649,7 @@
     ],
     "explanation": "GET is the HTTP method used by the example for request-based retrieval.",
     "topic": "HTTP GET",
-    "category": "http get"
+    "category": "Spring Boot"
   },
   {
     "id": 197,
@@ -3667,7 +3667,7 @@
     ],
     "explanation": "The course adds a password/form example using a POST request and `doPost`.",
     "topic": "HTTP POST",
-    "category": "http post"
+    "category": "Spring Boot"
   },
   {
     "id": 198,
@@ -3685,7 +3685,7 @@
     ],
     "explanation": "`doGet` is the standard servlet callback for GET requests.",
     "topic": "Servlet request handling",
-    "category": "Servlets / JSP / MVC"
+    "category": "Spring Boot"
   },
   {
     "id": 199,
@@ -3703,7 +3703,7 @@
     ],
     "explanation": "The transcript specifically creates a `doPost` method for form submission.",
     "topic": "Servlet POST handling",
-    "category": "Servlets / JSP / MVC"
+    "category": "Spring Boot"
   },
   {
     "id": 200,
@@ -3723,7 +3723,7 @@
     ],
     "explanation": "The lessons show parameters in GET requests and form data in POST requests; bytecode is unrelated to HTTP request parameters.",
     "topic": "Request parameters",
-    "category": "request parameters"
+    "category": "Spring Boot"
   },
   {
     "id": 201,
@@ -3741,7 +3741,7 @@
     ],
     "explanation": "The `ViewResolver` maps the controller's logical view name to a view such as a JSP resource.",
     "topic": "ViewResolver",
-    "category": "viewresolver"
+    "category": "Spring Boot"
   },
   {
     "id": 202,
@@ -3777,7 +3777,7 @@
     ],
     "explanation": "`ModelMap` is used to add model attributes for rendering a view.",
     "topic": "Spring MVC model",
-    "category": "Servlets / JSP / MVC"
+    "category": "Spring Boot"
   },
   {
     "id": 204,
@@ -3798,7 +3798,7 @@
     ],
     "explanation": "The request is dispatched to controller logic, a view can be selected/resolved, and the resulting view is rendered.",
     "topic": "Spring MVC request flow",
-    "category": "Servlets / JSP / MVC"
+    "category": "Spring Boot"
   },
   {
     "id": 205,
@@ -3816,7 +3816,7 @@
     ],
     "explanation": "The course moves authentication logic into a service rather than keeping all logic inside the controller.",
     "topic": "MVC separation of concerns",
-    "category": "mvc separation of concerns"
+    "category": "Spring Boot"
   },
   {
     "id": 206,
@@ -3836,7 +3836,7 @@
     ],
     "explanation": "Controllers coordinate request handling and application logic; visual styling belongs to the view/frontend layer.",
     "topic": "Controller responsibility",
-    "category": "controller responsibility"
+    "category": "Spring Boot"
   },
   {
     "id": 207,
@@ -3854,7 +3854,7 @@
     ],
     "explanation": "The Spring MVC lessons include resolver/mapping examples where URL patterns determine controller/view handling.",
     "topic": "Spring MVC URL mapping",
-    "category": "Servlets / JSP / MVC"
+    "category": "Spring Boot"
   },
   {
     "id": 208,
@@ -3892,7 +3892,7 @@
     ],
     "explanation": "Spring MVC separates data/model handling from view rendering.",
     "topic": "MVC model-view separation",
-    "category": "mvc model-view separation"
+    "category": "Spring Boot"
   },
   {
     "id": 210,
@@ -3912,7 +3912,7 @@
     ],
     "explanation": "The course builds a request-parameter login flow and then extracts authentication logic into a service.",
     "topic": "Login request flow",
-    "category": "login request flow"
+    "category": "Spring Boot"
   },
   {
     "id": 211,
@@ -3930,7 +3930,7 @@
     ],
     "explanation": "DispatcherServlet centralizes request handling before dispatching to the appropriate controller/handler.",
     "topic": "Front Controller pattern",
-    "category": "front controller pattern"
+    "category": "Spring Boot"
   },
   {
     "id": 212,
@@ -3948,7 +3948,7 @@
     ],
     "explanation": "`ViewResolver` is responsible for resolving a logical view name to a physical view resource.",
     "topic": "View resolution",
-    "category": "view resolution"
+    "category": "Spring Boot"
   },
   {
     "id": 213,
@@ -4166,7 +4166,7 @@
     ],
     "explanation": "The course uses the reference to access the native input's current `value` and pass it to component logic.",
     "topic": "Local template querying",
-    "category": "local template querying"
+    "category": "Spring Boot"
   },
   {
     "id": 225,
@@ -6741,7 +6741,7 @@
     ],
     "explanation": "The JSON section explicitly identifies `application/json` as the MIME type for JSON.",
     "topic": "JSON MIME type",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 362,
@@ -6759,7 +6759,7 @@
     ],
     "explanation": "The supplied material identifies `JSON.stringify()` as the function for converting a JavaScript value/object to a JSON string.",
     "topic": "JSON.stringify",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 363,
@@ -6777,7 +6777,7 @@
     ],
     "explanation": "The JSON material uses the two functions for opposite directions of JSON data conversion: parsing JSON text and generating JSON text.",
     "topic": "JSON parsing and serialization",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 364,
@@ -6797,7 +6797,7 @@
     ],
     "explanation": "- A \u00e2\u20ac\u201d The material includes an array representation. - B \u00e2\u20ac\u201d It discusses JSON objects with keys and values. - C \u00e2\u20ac\u201d `JSON.stringify()` is explicitly identified for serialization. - D \u00e2\u20ac\u201d JSON is not XML.",
     "topic": "JSON structures",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 365,
@@ -6815,7 +6815,7 @@
     ],
     "explanation": "The material's example shows that `JSON.stringify()` uses the object's `toJSON()` result, so `x` becomes `\"orange\"`.",
     "topic": "JSON custom serialization with toJSON",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 366,
@@ -6835,7 +6835,7 @@
     ],
     "explanation": "- A \u00e2\u20ac\u201d The source gives \"JSON with padding\" for JSONP. - B \u00e2\u20ac\u201d It identifies `application/json`. - C \u00e2\u20ac\u201d The material labels JSON-RPC as a remote procedure call protocol. - D \u00e2\u20ac\u201d JSON and XML are different data formats.",
     "topic": "JSONP, JSON-RPC, and MIME type",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 367,
@@ -6853,7 +6853,7 @@
     ],
     "explanation": "The source material explicitly states that the JSON Server API returns JSON.",
     "topic": "JSON Server response format",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 368,
@@ -6873,7 +6873,7 @@
     ],
     "explanation": "- A \u00e2\u20ac\u201d `stringify` serializes a JavaScript value into JSON text. - B \u00e2\u20ac\u201d `parse` converts JSON text into a JavaScript value. - C \u00e2\u20ac\u201d The supplied example demonstrates this behavior. - D \u00e2\u20ac\u201d Route parameters are an Express concept, not the purpose of JSON serialization.",
     "topic": "JSON conversion and serialization",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 369,
@@ -6891,7 +6891,7 @@
     ],
     "explanation": "A structure of the form `\"Student\": [ ... ]` enclosed within object braces is an object containing an array-valued property.",
     "topic": "JSON object and array structure",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 370,
@@ -6912,7 +6912,7 @@
     ],
     "explanation": "- A \u00e2\u20ac\u201d This is the parsing operation. - B \u00e2\u20ac\u201d This is the serialization operation. - C \u00e2\u20ac\u201d The source expands JSONP as JSON with padding. - D \u00e2\u20ac\u201d `application/json` is the MIME type identified in the source.",
     "topic": "JSON terminology and APIs",
-    "category": "JSON"
+    "category": "Spring Boot"
   },
   {
     "id": 371,
@@ -9020,7 +9020,7 @@
     ],
     "explanation": "The transcript sets up the JDBC/JPA examples with the H2 database.",
     "topic": "H2",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9042,7 +9042,7 @@
     ],
     "explanation": "The setup lecture explicitly includes JDBC, JPA, H2 and web dependencies.",
     "topic": "Project setup",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9061,7 +9061,7 @@
     ],
     "explanation": "The H2 Console is introduced as the browser-accessible console for the H2 database.",
     "topic": "H2 Console",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9080,7 +9080,7 @@
     ],
     "explanation": "The transcript creates and populates a Person table to demonstrate database access methods.",
     "topic": "Person table",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9099,7 +9099,7 @@
     ],
     "explanation": "findAll is implemented first as a Spring JDBC query method for retrieving persons.",
     "topic": "findAll",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9118,7 +9118,7 @@
     ],
     "explanation": "CommandLineRunner provides startup execution for the sample database operation.",
     "topic": "CommandLineRunner",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9140,7 +9140,7 @@
     ],
     "explanation": "The transcript walks through retrieval, deletion, and insert/update methods.",
     "topic": "Spring JDBC CRUD",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9159,7 +9159,7 @@
     ],
     "explanation": "The custom RowMapper section is about converting rows returned by JDBC into application objects.",
     "topic": "RowMapper",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9178,7 +9178,7 @@
     ],
     "explanation": "RowMapper controls the mapping from JDBC result rows to domain objects.",
     "topic": "RowMapper",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9197,7 +9197,7 @@
     ],
     "explanation": "The transcript introduces JPA as the abstraction used to work with persisted Java objects.",
     "topic": "JPA introduction",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9216,7 +9216,7 @@
     ],
     "explanation": "The Person class is turned into a JPA entity using @Entity.",
     "topic": "JPA entity",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9237,7 +9237,7 @@
     ],
     "explanation": "JPA entities represent persisted domain objects and participate in object-relational mapping.",
     "topic": "JPA entity",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9256,7 +9256,7 @@
     ],
     "explanation": "The JPA repository section explicitly demonstrates findById.",
     "topic": "JPA repository",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9278,7 +9278,7 @@
     ],
     "explanation": "The transcript covers retrieving, inserting/updating and deleting through JPA repository methods.",
     "topic": "JPA repository CRUD",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9297,7 +9297,7 @@
     ],
     "explanation": "The transcript implements findAll using a JPQL named query.",
     "topic": "JPQL",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9316,7 +9316,7 @@
     ],
     "explanation": "The JPA section emphasizes the object/entity-oriented persistence model represented by JPQL.",
     "topic": "JPQL",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9335,7 +9335,7 @@
     ],
     "explanation": "The course title and section explicitly discuss JPA with Hibernate.",
     "topic": "Hibernate",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9354,7 +9354,7 @@
     ],
     "explanation": "ORM is the object-relational mapping layer connecting Java entities to relational persistence.",
     "topic": "ORM",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9376,7 +9376,7 @@
     ],
     "explanation": "The transcript moves from JDBC to Spring JDBC, then JPA, and finally Spring Data JPA repositories.",
     "topic": "Data abstraction layers",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9395,7 +9395,7 @@
     ],
     "explanation": "Spring Data JPA is introduced as repository-oriented access on top of JPA.",
     "topic": "Spring Data JPA",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9414,7 +9414,7 @@
     ],
     "explanation": "deleteById is explicitly used for deleting persisted records.",
     "topic": "CRUD classification",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9433,7 +9433,7 @@
     ],
     "explanation": "findById retrieves a particular entity by its identifier.",
     "topic": "CRUD classification",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9454,7 +9454,7 @@
     ],
     "explanation": "JPA uses entities, repositories and JPQL; RowMapper belongs to the Spring JDBC mapping approach.",
     "topic": "JDBC to JPA",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9473,7 +9473,7 @@
     ],
     "explanation": "The browser sends an HTTP request to the web server.",
     "topic": "HTTP request/response",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9492,7 +9492,7 @@
     ],
     "explanation": "The server-side code takes an HTTP request as input and produces an HTTP response as output.",
     "topic": "HTTP request/response",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9513,7 +9513,7 @@
     ],
     "explanation": "The request example includes the URL/path, method such as GET, and request headers.",
     "topic": "HTTP request",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9534,7 +9534,7 @@
     ],
     "explanation": "The transcript discusses response HTML/body, response headers, and status such as 404.",
     "topic": "HTTP response",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9553,7 +9553,7 @@
     ],
     "explanation": "The first LoginServlet example handles the GET request generated by entering the URL.",
     "topic": "HTTP GET",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9572,7 +9572,7 @@
     ],
     "explanation": "The transcript implements doGet to handle the GET request.",
     "topic": "doGet",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9591,7 +9591,7 @@
     ],
     "explanation": "The servlet POST section introduces doPost for POST requests.",
     "topic": "doPost",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9610,7 +9610,7 @@
     ],
     "explanation": "The transcript's sample servlet extends HttpServlet.",
     "topic": "HttpServlet",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9629,7 +9629,7 @@
     ],
     "explanation": "@WebServlet is used to define the servlet URL pattern.",
     "topic": "@WebServlet",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9648,7 +9648,7 @@
     ],
     "explanation": "The transcript uses @WebServlet(urlPatterns=...) and emphasizes the slash-prefixed path.",
     "topic": "urlPatterns",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9667,7 +9667,7 @@
     ],
     "explanation": "The transcript explicitly notes that /login.do should start with a slash.",
     "topic": "Servlet URL pattern",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9686,7 +9686,7 @@
     ],
     "explanation": "The transcript shows doGet receiving the request and response objects.",
     "topic": "doGet signature",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9705,7 +9705,7 @@
     ],
     "explanation": "The transcript uses response.getWriter() to obtain a PrintWriter and writes HTML/output into it.",
     "topic": "Servlet response",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9726,7 +9726,7 @@
     ],
     "explanation": "The transcript says Java is good for business logic but JSP makes dynamic HTML easier; importantly, JSP still becomes a servlet.",
     "topic": "Why JSP",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9745,7 +9745,7 @@
     ],
     "explanation": "The transcript explicitly says JSPs finally compile to a servlet.",
     "topic": "JSP lifecycle concept",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9764,7 +9764,7 @@
     ],
     "explanation": "The stated reason for JSP is easier HTML authoring, not a runtime speed advantage; JSP ultimately becomes a servlet.",
     "topic": "JSP vs Servlet",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9783,7 +9783,7 @@
     ],
     "explanation": "The transcript creates a views directory under WEB-INF for login.jsp.",
     "topic": "JSP location",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9802,7 +9802,7 @@
     ],
     "explanation": "The transcript demonstrates getRequestDispatcher followed by forward(request,response).",
     "topic": "RequestDispatcher",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9823,7 +9823,7 @@
     ],
     "explanation": "The forward call uses the existing request and response objects for server-side dispatch.",
     "topic": "RequestDispatcher",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9842,7 +9842,7 @@
     ],
     "explanation": "The transcript shows HTTP 404 for a missing resource.",
     "topic": "HTTP status",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9861,7 +9861,7 @@
     ],
     "explanation": "The missing login1.jsp example returns 404 because the requested resource is unavailable.",
     "topic": "HTTP 404",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9880,7 +9880,7 @@
     ],
     "explanation": "The Spring MVC architecture section presents DispatcherServlet as the front controller for web requests.",
     "topic": "DispatcherServlet",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9899,7 +9899,7 @@
     ],
     "explanation": "The MVC architecture discussion describes the central DispatcherServlet as a Front Controller.",
     "topic": "Front Controller",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9920,7 +9920,7 @@
     ],
     "explanation": "MVC separates controller, model and view responsibilities.",
     "topic": "MVC separation",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9939,7 +9939,7 @@
     ],
     "explanation": "The ViewResolver section explains converting a logical view name into the JSP/view path.",
     "topic": "ViewResolver",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9958,7 +9958,7 @@
     ],
     "explanation": "@RequestParam is demonstrated when receiving request parameters in a controller.",
     "topic": "@RequestParam",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9980,7 +9980,7 @@
     ],
     "explanation": "The architecture discussion builds the request through DispatcherServlet, controller, model/view name and ViewResolver.",
     "topic": "Spring MVC flow",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -9999,7 +9999,7 @@
     ],
     "explanation": "The transcript uses @RequestParam for inputs and ModelMap for data supplied to the view.",
     "topic": "RequestParam vs ModelMap",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -10018,7 +10018,7 @@
     ],
     "explanation": "The ViewResolver's job is to map logical view names to actual view resources.",
     "topic": "ViewResolver",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -10040,7 +10040,7 @@
     ],
     "explanation": "The transcript progressively builds request parameters, authentication via LoginService, and MVC controller/view flow.",
     "topic": "Login flow",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12311,7 +12311,7 @@
     ],
     "explanation": "The transcript presents RowMapper in Spring JDBC and @Entity in JPA/ORM as different abstraction mechanisms.",
     "topic": "RowMapper vs Entity",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12332,7 +12332,7 @@
     ],
     "explanation": "The course progresses from Spring JDBC/RowMapper to JPA entities, JPQL and repository abstractions; RowMapper is not the required JPA mechanism.",
     "topic": "JDBC to Spring Data JPA",
-    "category": "Spring JDBC / JPA / Data",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12354,7 +12354,7 @@
     ],
     "explanation": "These are the four core servlet steps shown in the transcript.",
     "topic": "Servlet request flow",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12373,7 +12373,7 @@
     ],
     "explanation": "The transcript explicitly presents JSP as easier for dynamic HTML while explaining that it ultimately becomes a servlet.",
     "topic": "JSP rationale",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12394,7 +12394,7 @@
     ],
     "explanation": "ModelMap, controller logic and ViewResolver form the demonstrated MVC view-selection flow; the ViewResolver is not a database component.",
     "topic": "Spring MVC flow",
-    "category": "Servlets / JSP / MVC",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12477,7 +12477,7 @@
     ],
     "explanation": "The Java evolution section discusses modern cloud applications, REST APIs and microservices, and names Spring Boot, Quarkus and Micronaut as Java frameworks used for such applications.",
     "topic": "Microservices",
-    "category": "Microservices",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12496,7 +12496,7 @@
     ],
     "explanation": "The course overview explicitly presents Spring Boot as the Java framework to develop microservices.",
     "topic": "Spring Boot for microservices",
-    "category": "Microservices",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -12517,7 +12517,7 @@
     ],
     "explanation": "The transcript names web applications, REST APIs and microservices as modern cloud-application workloads supported by Java frameworks.",
     "topic": "Cloud application styles",
-    "category": "Microservices",
+    "category": "Spring Boot",
     "source": "uploaded Spring/Web/Maven/Gradle/Java transcripts"
   },
   {
@@ -13376,7 +13376,7 @@
     "explanation": "The transcript notes that Spring Boot 4 examples use spring-boot-starter-webmvc, whereas older examples used spring-boot-starter-web.",
     "topic": "Starter projects",
     "id": 700,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13394,7 +13394,7 @@
     "explanation": "The transcript contrasts Spring Boot 4's webmvc test starter with the older starter-test name.",
     "topic": "Starter projects",
     "id": 701,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13415,7 +13415,7 @@
     "explanation": "The transcript explicitly explains the newer and older starter names so learners do not get confused by older course code.",
     "topic": "Starter projects",
     "id": 702,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13433,7 +13433,7 @@
     "explanation": "The transcript runs the Spring Boot application as a Java application and shows Tomcat starting on 8080.",
     "topic": "Boot application setup",
     "id": 703,
-    "category": "Boot application setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13451,7 +13451,7 @@
     "explanation": "The setup shows Maven downloading many dependencies declared or implied by the selected starters.",
     "topic": "Boot application setup",
     "id": 704,
-    "category": "Boot application setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13470,7 +13470,7 @@
     "explanation": "The question asks specifically for main source and main configuration; the transcript assigns those to src/main/java and src/main/resources.",
     "topic": "Boot application setup",
     "id": 705,
-    "category": "Boot application setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13488,7 +13488,7 @@
     "explanation": "The generated web setup starts with embedded Tomcat, removing the need for a separate server installation in that flow.",
     "topic": "Embedded servers",
     "id": 706,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13506,7 +13506,7 @@
     "explanation": "The transcript uses the startup log to show the embedded Tomcat server starting.",
     "topic": "Embedded servers",
     "id": 707,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13524,7 +13524,7 @@
     "explanation": "Starters group the dependencies normally needed for a particular type of feature.",
     "topic": "Starter projects",
     "id": 708,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13542,7 +13542,7 @@
     "explanation": "The web starter is presented as the convenient dependency descriptor for web/REST applications.",
     "topic": "Starter projects",
     "id": 709,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13560,7 +13560,7 @@
     "explanation": "The transcript explains that Jackson performs the Bean/list-to-JSON conversion.",
     "topic": "Starter projects",
     "id": 710,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13578,7 +13578,7 @@
     "explanation": "The transcript maps database access through JPA to Spring Boot Starter Data JPA.",
     "topic": "Starter projects",
     "id": 711,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13596,7 +13596,7 @@
     "explanation": "The transcript maps JDBC database access to Spring Boot Starter JDBC.",
     "topic": "Starter projects",
     "id": 712,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13614,7 +13614,7 @@
     "explanation": "The transcript explicitly names Spring Boot Starter Security for securing web applications and REST APIs.",
     "topic": "Starter projects",
     "id": 713,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13634,7 +13634,7 @@
     "explanation": "Starters simplify dependency selection, but the transcript separately explains that dependencies alone are not the whole configuration story.",
     "topic": "Starter projects",
     "id": 714,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13652,7 +13652,7 @@
     "explanation": "That is precisely the convenience provided by starter projects.",
     "topic": "Starter projects",
     "id": 715,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13670,7 +13670,7 @@
     "explanation": "The transcript says starters group dependencies; it then separately introduces auto-configuration.",
     "topic": "Starter projects",
     "id": 716,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13688,7 +13688,7 @@
     "explanation": "The transcript associates Data JPA with JPA access, JDBC with JDBC access, Security with security, and Actuator with monitoring.",
     "topic": "Starter projects",
     "id": 717,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13709,7 +13709,7 @@
     "explanation": "The transcript lists these as examples of the frameworks or facilities that would need to be assembled without starters.",
     "topic": "Starter projects",
     "id": 718,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13727,7 +13727,7 @@
     "explanation": "The key guidance is to select the starter matching the intended capability.",
     "topic": "Starter projects",
     "id": 719,
-    "category": "Starter projects"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13745,7 +13745,7 @@
     "explanation": "The transcript explicitly describes both classpath contents and existing configuration as factors.",
     "topic": "Auto-configuration",
     "id": 720,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13763,7 +13763,7 @@
     "explanation": "Auto-configuration is defined as automated configuration driven by classpath frameworks plus existing configuration.",
     "topic": "Auto-configuration",
     "id": 721,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13781,7 +13781,7 @@
     "explanation": "The transcript explicitly says Boot provides defaults that can be overridden by your own configuration.",
     "topic": "Auto-configuration",
     "id": 722,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13799,7 +13799,7 @@
     "explanation": "The transcript names spring-boot-autoconfigure.jar as the location of auto-configuration logic.",
     "topic": "Auto-configuration",
     "id": 723,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13817,7 +13817,7 @@
     "explanation": "The debug auto-configuration report also shows negative matches.",
     "topic": "Auto-configuration",
     "id": 724,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13835,7 +13835,7 @@
     "explanation": "The transcript says an embedded database on the classpath leads to data-source auto-configuration.",
     "topic": "Auto-configuration",
     "id": 725,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13853,7 +13853,7 @@
     "explanation": "The transcript explicitly uses the web application classpath as an example for DispatcherServlet auto-configuration.",
     "topic": "Auto-configuration",
     "id": 726,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13871,7 +13871,7 @@
     "explanation": "The transcript states that JPA on the classpath leads Boot to configure an EntityManagerFactory and transaction manager.",
     "topic": "Auto-configuration",
     "id": 727,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13892,7 +13892,7 @@
     "explanation": "The transcript lists all four as results of the Boot web setup.",
     "topic": "Auto-configuration",
     "id": 728,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13910,7 +13910,7 @@
     "explanation": "The transcript attributes the automatic JSON conversion to Jackson and its message-converter configuration.",
     "topic": "Auto-configuration",
     "id": 729,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13928,7 +13928,7 @@
     "explanation": "The transcript recommends examining the auto-configuration report in debug mode.",
     "topic": "Auto-configuration",
     "id": 730,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13948,7 +13948,7 @@
     "explanation": "The transcript says H2 console auto-configuration checks for a web servlet, H2 on the classpath, and the enabling property.",
     "topic": "Auto-configuration",
     "id": 731,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13966,7 +13966,7 @@
     "explanation": "Boot uses classpath conditions to decide what to auto-configure.",
     "topic": "Auto-configuration",
     "id": 732,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13986,7 +13986,7 @@
     "explanation": "Starters bring frameworks onto the classpath; auto-configuration then uses the classpath plus configuration context.",
     "topic": "Auto-configuration",
     "id": 733,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14004,7 +14004,7 @@
     "explanation": "The transcript directly states that developer configuration can override Boot's defaults.",
     "topic": "Auto-configuration",
     "id": 734,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14022,7 +14022,7 @@
     "explanation": "DevTools is introduced to reduce manual restart work during development.",
     "topic": "DevTools",
     "id": 735,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14040,7 +14040,7 @@
     "explanation": "The transcript adds the DevTools dependency to pom.xml.",
     "topic": "DevTools",
     "id": 736,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14058,7 +14058,7 @@
     "explanation": "The transcript shows a restart automatically triggered after saving a code change.",
     "topic": "DevTools",
     "id": 737,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14076,7 +14076,7 @@
     "explanation": "The restart log is the visible evidence of DevTools responding to the code change.",
     "topic": "DevTools",
     "id": 738,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -14094,7 +14094,7 @@
     "explanation": "The transcript states that DevTools cannot handle changes in pom.xml.",
     "topic": "DevTools",
     "id": 739,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14114,7 +14114,7 @@
     "explanation": "The first three describe DevTools; production monitoring is the role assigned to Actuator.",
     "topic": "DevTools",
     "id": 740,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -14132,7 +14132,7 @@
     "explanation": "The transcript explicitly calls out pom.xml changes as a limitation.",
     "topic": "DevTools",
     "id": 741,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14150,7 +14150,7 @@
     "explanation": "The transcript groups Initializr, starters, auto-configuration and DevTools as speed/productivity features.",
     "topic": "DevTools",
     "id": 742,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14168,7 +14168,7 @@
     "explanation": "The transcript clearly assigns development productivity to DevTools and production monitoring to Actuator.",
     "topic": "DevTools vs Actuator",
     "id": 743,
-    "category": "DevTools vs Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14186,7 +14186,7 @@
     "explanation": "That is the concrete workflow shown in the DevTools demonstration.",
     "topic": "DevTools",
     "id": 744,
-    "category": "DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14332,7 +14332,7 @@
     "explanation": "The material orders the levels so TRACE prints everything, while lower-severity selections show progressively less.",
     "topic": "Profiles and logging",
     "id": 752,
-    "category": "Profiles and logging"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14350,7 +14350,7 @@
     "explanation": "The transcript explains that INFO includes messages at INFO and the levels below it in its example.",
     "topic": "Profiles and logging",
     "id": 753,
-    "category": "Profiles and logging"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14368,7 +14368,7 @@
     "explanation": "The transcript demonstrates TRACE-like logging in development and INFO-like logging in production.",
     "topic": "Profiles and logging",
     "id": 754,
-    "category": "Profiles and logging"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14425,7 +14425,7 @@
     "explanation": "The transcript recommends @ConfigurationProperties for a larger set of related application properties.",
     "topic": "ConfigurationProperties",
     "id": 757,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14443,7 +14443,7 @@
     "explanation": "The demonstrated prefix is currency-service.",
     "topic": "ConfigurationProperties",
     "id": 758,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14463,7 +14463,7 @@
     "explanation": "The example defines URL, username and key as configuration properties.",
     "topic": "ConfigurationProperties",
     "id": 759,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14481,7 +14481,7 @@
     "explanation": "The transcript says @Component is needed so Spring manages the configuration object.",
     "topic": "ConfigurationProperties",
     "id": 760,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14499,7 +14499,7 @@
     "explanation": "The properties are mapped from application.properties.",
     "topic": "ConfigurationProperties",
     "id": 761,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14517,7 +14517,7 @@
     "explanation": "The transcript uses a configuration class to group multiple related service settings.",
     "topic": "ConfigurationProperties",
     "id": 762,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14535,7 +14535,7 @@
     "explanation": "The transcript demonstrates @Value with ${...} syntax for reading a property.",
     "topic": "External configuration",
     "id": 763,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14553,7 +14553,7 @@
     "explanation": "The transcript specifically warns that the ${...} form is required for the property lookup example.",
     "topic": "External configuration",
     "id": 764,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14571,7 +14571,7 @@
     "explanation": "The transcript uses @PropertySource with classpath:app.properties.",
     "topic": "External configuration",
     "id": 765,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14589,7 +14589,7 @@
     "explanation": "The transcript describes separate Dev, QA, Stage and Production property values.",
     "topic": "External configuration",
     "id": 766,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14607,7 +14607,7 @@
     "explanation": "Tomcat is explicitly presented as the default embedded server.",
     "topic": "Embedded servers",
     "id": 767,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14625,7 +14625,7 @@
     "explanation": "The transcript names Jetty and Undertow as other supported options.",
     "topic": "Embedded servers",
     "id": 768,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14643,7 +14643,7 @@
     "explanation": "The transcript explains that the server is part of the JAR, so Java is sufficient to run it.",
     "topic": "Embedded servers",
     "id": 769,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14661,7 +14661,7 @@
     "explanation": "The phrase is used to emphasize the simplified JAR deployment model.",
     "topic": "Embedded servers",
     "id": 770,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14679,7 +14679,7 @@
     "explanation": "The transcript shows the web starter bringing in Spring Boot starter Tomcat.",
     "topic": "Embedded servers",
     "id": 771,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14699,7 +14699,7 @@
     "explanation": "The last option contradicts the demonstrated embedded-server deployment model.",
     "topic": "Embedded servers",
     "id": 772,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -14717,7 +14717,7 @@
     "explanation": "This is the deployment simplification demonstrated in the embedded-server section.",
     "topic": "Embedded servers",
     "id": 773,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14735,7 +14735,7 @@
     "explanation": "The transcript explicitly states that Tomcat is the default and Jetty/Undertow are also supported.",
     "topic": "Embedded servers",
     "id": 774,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14753,7 +14753,7 @@
     "explanation": "Actuator is introduced as the feature for production monitoring and management.",
     "topic": "Actuator",
     "id": 775,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14771,7 +14771,7 @@
     "explanation": "The transcript demonstrates localhost:8080/actuator/health for health information.",
     "topic": "Actuator",
     "id": 776,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14789,7 +14789,7 @@
     "explanation": "The transcript says the beans endpoint shows Spring beans in the application.",
     "topic": "Actuator",
     "id": 777,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14807,7 +14807,7 @@
     "explanation": "Metrics are exposed through the metrics endpoint in the transcript.",
     "topic": "Actuator",
     "id": 778,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14825,7 +14825,7 @@
     "explanation": "The transcript states that the mappings endpoint provides details around configured request mappings.",
     "topic": "Actuator",
     "id": 779,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14843,7 +14843,7 @@
     "explanation": "The walkthrough adds the actuator starter to pom.xml.",
     "topic": "Actuator",
     "id": 780,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14861,7 +14861,7 @@
     "explanation": "The sample response contains a self link and a health link.",
     "topic": "Actuator",
     "id": 781,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14879,7 +14879,7 @@
     "explanation": "The transcript explicitly says that by default only the health endpoint is exposed.",
     "topic": "Actuator",
     "id": 782,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14897,7 +14897,7 @@
     "explanation": "The transcript says additional endpoints/features can be enabled in application.properties.",
     "topic": "Actuator",
     "id": 783,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14918,7 +14918,7 @@
     "explanation": "Each concern is tied to one of the Actuator endpoints discussed.",
     "topic": "Actuator",
     "id": 784,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14936,7 +14936,7 @@
     "explanation": "Health is the endpoint specifically associated with application health.",
     "topic": "Actuator",
     "id": 785,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14954,7 +14954,7 @@
     "explanation": "The mappings endpoint is for request mappings.",
     "topic": "Actuator",
     "id": 786,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14974,7 +14974,7 @@
     "explanation": "The last statement describes DevTools instead of Actuator.",
     "topic": "Actuator",
     "id": 787,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14992,7 +14992,7 @@
     "explanation": "Operational monitoring is explicitly part of the production-ready goal.",
     "topic": "Actuator",
     "id": 788,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15010,7 +15010,7 @@
     "explanation": "The transcript defines the core of Spring Framework as dependency injection.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 789,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15028,7 +15028,7 @@
     "explanation": "Spring MVC is presented as the web-focused Spring module.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 790,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15048,7 +15048,7 @@
     "explanation": "The first three are explicitly identified as Spring MVC annotations in the comparison; @Autowired is a Spring DI mechanism rather than a mapping annotation.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 791,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15066,7 +15066,7 @@
     "explanation": "Starters are described as convenient dependency descriptors.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 792,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15084,7 +15084,7 @@
     "explanation": "Auto-configuration automatically provides defaults based on classpath and existing configuration.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 793,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15104,7 +15104,7 @@
     "explanation": "The last option contradicts the transcript.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 794,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15122,7 +15122,7 @@
     "explanation": "The transcript points to pom.xml, web.xml, applicationContext.xml, and other configuration burdens.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 795,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15140,7 +15140,7 @@
     "explanation": "Embedded servers are a Spring Boot feature supporting easy deployment.",
     "topic": "Spring vs Spring MVC vs Spring Boot",
     "id": 796,
-    "category": "Spring vs Spring MVC vs Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15158,7 +15158,7 @@
     "explanation": "The transcript says JDBC, JPA, H2 and Web were chosen in the Spring Initializr setup.",
     "topic": "Boot database setup",
     "id": 797,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15176,7 +15176,7 @@
     "explanation": "The transcript repeatedly refers to H2 as an in-memory database.",
     "topic": "H2 with Spring Boot",
     "id": 798,
-    "category": "H2 with Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15194,7 +15194,7 @@
     "explanation": "This is the auto-configuration chain described in the transcript.",
     "topic": "H2 with Spring Boot",
     "id": 799,
-    "category": "H2 with Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15212,7 +15212,7 @@
     "explanation": "The transcript says JdbcTemplate is auto-configured using the auto-configured data source.",
     "topic": "Boot database setup",
     "id": 800,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15230,7 +15230,7 @@
     "explanation": "This sequence is directly stated in the auto-configuration discussion.",
     "topic": "Boot database setup",
     "id": 801,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15248,7 +15248,7 @@
     "explanation": "The transcript gives the property as spring.h2.console.enabled=true.",
     "topic": "H2 console",
     "id": 802,
-    "category": "H2 console"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15268,7 +15268,7 @@
     "explanation": "The first three form the demonstrated condition set; React is unrelated.",
     "topic": "H2 console",
     "id": 803,
-    "category": "H2 console"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15286,7 +15286,7 @@
     "explanation": "The transcript runs the application simply to verify that the generated setup works.",
     "topic": "Boot database setup",
     "id": 804,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15304,7 +15304,7 @@
     "explanation": "The transcript attributes EntityManagerFactory and transaction manager setup to auto-configuration when JPA is present.",
     "topic": "Boot database setup",
     "id": 805,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15324,7 +15324,7 @@
     "explanation": "JPA, JDBC and H2 appear in the database setup; FTP does not.",
     "topic": "Boot database setup",
     "id": 806,
-    "category": "Boot database setup"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16055,7 +16055,7 @@
     "explanation": "Both split 1 and split 2 explain externalized configuration and environment-specific values.",
     "topic": "External configuration",
     "id": 846,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16091,7 +16091,7 @@
     "explanation": "The transcript recommends @ConfigurationProperties for multiple related settings.",
     "topic": "ConfigurationProperties",
     "id": 848,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16112,7 +16112,7 @@
     "explanation": "The transcript gives each of these as examples of conditional or related auto-configuration.",
     "topic": "Integrated Boot auto-configuration",
     "id": 849,
-    "category": "Integrated Boot auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16130,7 +16130,7 @@
     "explanation": "The transcript says Spring Boot's web starter brings in starter Tomcat, which is part of the JAR.",
     "topic": "Integrated Boot deployment",
     "id": 850,
-    "category": "Integrated Boot deployment"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16148,7 +16148,7 @@
     "explanation": "That is the exact limitation and purpose combination described in the DevTools section.",
     "topic": "Integrated DevTools/Maven",
     "id": 851,
-    "category": "Integrated DevTools/Maven"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16166,7 +16166,7 @@
     "explanation": "Actuator is the production-monitoring feature; DevTools is for development productivity.",
     "topic": "Integrated production readiness",
     "id": 852,
-    "category": "Integrated production readiness"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16185,7 +16185,7 @@
     "explanation": "The parent hierarchy leads to centralized dependency version management.",
     "topic": "Integrated Maven version management",
     "id": 853,
-    "category": "Integrated Maven version management"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16203,7 +16203,7 @@
     "explanation": "Profiles address environment differences, ConfigurationProperties groups configuration, and Actuator handles monitoring.",
     "topic": "Integrated configuration/operations",
     "id": 854,
-    "category": "Integrated configuration/operations"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16239,7 +16239,7 @@
     "explanation": "The transcript explicitly asks whether having the right dependencies is sufficient and answers no: configuration is also needed.",
     "topic": "Starters vs auto-configuration",
     "id": 856,
-    "category": "Starters vs auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16278,7 +16278,7 @@
     "explanation": "The transcript attributes automatic Bean/list-to-JSON conversion to Jackson message conversion under Boot auto-configuration.",
     "topic": "Integrated web auto-configuration",
     "id": 858,
-    "category": "Integrated web auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16296,7 +16296,7 @@
     "explanation": "The example uses Spring Boot as the setting for demonstrating tight versus loose coupling and dependency injection.",
     "topic": "Boot-context dependency injection example",
     "id": 859,
-    "category": "Boot-context dependency injection example"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16314,7 +16314,7 @@
     "explanation": "The transcript's goal is to remove direct instantiation and allow a sort algorithm to be supplied.",
     "topic": "Boot-context dependency injection example",
     "id": 860,
-    "category": "Boot-context dependency injection example"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16424,7 +16424,7 @@
     "explanation": "The beans endpoint is explicitly described as showing Spring beans.",
     "topic": "Actuator",
     "id": 866,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16442,7 +16442,7 @@
     "explanation": "The debug report exposes positive and negative auto-configuration matches.",
     "topic": "Auto-configuration",
     "id": 867,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16478,7 +16478,7 @@
     "explanation": "The transcript's currency-service example uses @ConfigurationProperties.",
     "topic": "ConfigurationProperties",
     "id": 869,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16496,7 +16496,7 @@
     "explanation": "The application JAR includes the embedded server in the demonstrated deployment model.",
     "topic": "Embedded servers",
     "id": 870,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16559,7 +16559,7 @@
     "explanation": "The web auto-configuration walkthrough names all four outcomes.",
     "topic": "Auto-configuration",
     "id": 873,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16580,7 +16580,7 @@
     "explanation": "Each mapping is explicitly described in the transcript.",
     "topic": "Actuator",
     "id": 874,
-    "category": "Actuator"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16601,7 +16601,7 @@
     "explanation": "All four are directly supported.",
     "topic": "Embedded servers",
     "id": 875,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16694,7 +16694,7 @@
     "explanation": "The transcript explicitly states that default auto-configuration can be overridden.",
     "topic": "Auto-configuration override",
     "id": 880,
-    "category": "Auto-configuration override"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16712,7 +16712,7 @@
     "explanation": "The example says H2 console auto-configuration checks for a web servlet class in addition to H2 and the enabling property.",
     "topic": "H2 console auto-configuration",
     "id": 881,
-    "category": "H2 console auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16730,7 +16730,7 @@
     "explanation": "The transcript explicitly states that JdbcTemplate is auto-configured from the configured data source.",
     "topic": "JDBC auto-configuration",
     "id": 882,
-    "category": "JDBC auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16748,7 +16748,7 @@
     "explanation": "Actuator is for production monitoring; DevTools is for development productivity.",
     "topic": "Actuator vs DevTools",
     "id": 883,
-    "category": "Actuator vs DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16766,7 +16766,7 @@
     "explanation": "DevTools is specifically presented as improving development productivity through automatic restarts.",
     "topic": "Actuator vs DevTools",
     "id": 884,
-    "category": "Actuator vs DevTools"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16802,7 +16802,7 @@
     "explanation": "Externalization is presented as a way to vary environment-specific values such as external-service URLs.",
     "topic": "External configuration",
     "id": 886,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16820,7 +16820,7 @@
     "explanation": "The example uses @PropertySource and classpath:app.properties.",
     "topic": "External configuration",
     "id": 887,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16838,7 +16838,7 @@
     "explanation": "The transcript adds @Component after the bean is initially missing.",
     "topic": "External configuration",
     "id": 888,
-    "category": "External configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16874,7 +16874,7 @@
     "explanation": "The transcript shows application.properties under source main resources.",
     "topic": "Boot project structure",
     "id": 890,
-    "category": "Boot project structure"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16892,7 +16892,7 @@
     "explanation": "The report provides matching and negative-match information for auto-configuration decisions.",
     "topic": "Auto-configuration",
     "id": 891,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16910,7 +16910,7 @@
     "explanation": "The transcript lists these capabilities together.",
     "topic": "Auto-configuration",
     "id": 892,
-    "category": "Auto-configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16966,7 +16966,7 @@
     "explanation": "Tomcat is the default in the demonstrated setup; Jetty and Undertow are also mentioned as supported.",
     "topic": "Embedded servers",
     "id": 895,
-    "category": "Embedded servers"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16984,7 +16984,7 @@
     "explanation": "Production metrics/monitoring belongs to Actuator, not DevTools.",
     "topic": "Feature comparison",
     "id": 896,
-    "category": "Feature comparison"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -17022,7 +17022,7 @@
     "explanation": "Classpath, configuration and profiles influence different parts of Boot's automated behavior; CSS does not.",
     "topic": "Integrated Boot configuration",
     "id": 898,
-    "category": "Integrated Boot configuration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -17042,7 +17042,7 @@
     "explanation": "The material emphasizes simplified deployment through an embedded server and a runnable JAR.",
     "topic": "Embedded deployment",
     "id": 899,
-    "category": "Embedded deployment"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -17083,6 +17083,6 @@
     "explanation": "The first three describe the demonstrated currency-service configuration class; HTTP mappings belong elsewhere.",
     "topic": "ConfigurationProperties",
     "id": 901,
-    "category": "ConfigurationProperties"
+    "category": "Spring Boot"
   }
 ]
