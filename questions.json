@@ -1965,7 +1965,7 @@
     ],
     "explanation": "The course explicitly presents Spring as a dependency-injection framework at a high level.",
     "topic": "Spring fundamentals",
-    "category": "spring fundamentals"
+    "category": "Spring Boot"
   },
   {
     "id": 107,
@@ -2055,7 +2055,7 @@
     ],
     "explanation": "Spring beans are objects whose creation/configuration/lifecycle are managed by the container.",
     "topic": "Spring beans",
-    "category": "spring beans"
+    "category": "Spring Boot"
   },
   {
     "id": 112,
@@ -2205,7 +2205,7 @@
     ],
     "explanation": "Spring's singleton is a container-managed lifecycle/scope concept, not identical to the classic design-pattern implementation.",
     "topic": "Spring singleton vs GoF Singleton",
-    "category": "spring singleton vs gof singleton"
+    "category": "Spring Boot"
   },
   {
     "id": 120,
@@ -2243,7 +2243,7 @@
     ],
     "explanation": "The course compares `@Component` with the role-specific stereotypes `@Service`, `@Repository`, and `@Controller`.",
     "topic": "Spring stereotype annotations",
-    "category": "spring stereotype annotations"
+    "category": "Spring Boot"
   },
   {
     "id": 122,
@@ -2335,7 +2335,7 @@
     ],
     "explanation": "The course includes reading configuration values from an external properties file such as `application.properties`.",
     "topic": "Spring external properties",
-    "category": "spring external properties"
+    "category": "Spring Boot"
   },
   {
     "id": 127,
@@ -2617,7 +2617,7 @@
     ],
     "explanation": "Eclipse is used for demonstrations, but the course notes that IntelliJ IDEA or Visual Studio Code can also be used.",
     "topic": "Spring development setup",
-    "category": "spring development setup"
+    "category": "Spring Boot"
   },
   {
     "id": 142,
@@ -2635,7 +2635,7 @@
     ],
     "explanation": "Spring Initializr at `start.spring.io` is used to generate the project skeleton.",
     "topic": "Spring Initializr",
-    "category": "spring initializr"
+    "category": "Spring Boot"
   },
   {
     "id": 143,
@@ -2655,7 +2655,7 @@
     ],
     "explanation": "The transcript demonstrates selecting Maven, Java and a Spring Boot version in Spring Initializr.",
     "topic": "Spring Initializr configuration",
-    "category": "spring initializr configuration"
+    "category": "Spring Boot"
   },
   {
     "id": 144,
@@ -2729,7 +2729,7 @@
     ],
     "explanation": "Spring Initializr scaffolds new Spring Boot projects.",
     "topic": "Spring Initializr",
-    "category": "spring initializr"
+    "category": "Spring Boot"
   },
   {
     "id": 148,
@@ -2822,7 +2822,7 @@
     ],
     "explanation": "The transcript uses profiles to represent configuration differences across development, QA, staging and production.",
     "topic": "Spring profiles",
-    "category": "spring profiles"
+    "category": "Spring Boot"
   },
   {
     "id": 153,
@@ -12934,7 +12934,7 @@
     "explanation": "The transcript states the key goal as building production-ready applications quickly.",
     "topic": "Spring Boot goals",
     "id": 676,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -12952,7 +12952,7 @@
     "explanation": "Before Spring Boot, dependency management, configuration, and non-functional features had to be handled repeatedly.",
     "topic": "Spring Boot goals",
     "id": 677,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -12970,7 +12970,7 @@
     "explanation": "Spring Boot reduces repeated configuration and provides defaults aimed at rapid, production-ready application setup.",
     "topic": "Spring Boot goals",
     "id": 678,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -12989,7 +12989,7 @@
     "explanation": "Profiles/configuration support different environments, while Actuator and related features support monitoring.",
     "topic": "Spring Boot goals",
     "id": 679,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13007,7 +13007,7 @@
     "explanation": "DevTools is presented as a developer-productivity feature that automatically picks up code changes.",
     "topic": "Spring Boot goals",
     "id": 680,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13025,7 +13025,7 @@
     "explanation": "The transcript emphasizes both 'quickly' and 'production-ready' as essential parts of the goal.",
     "topic": "Spring Boot goals",
     "id": 681,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13046,7 +13046,7 @@
     "explanation": "All four are explicitly named as production-readiness features in the transcript.",
     "topic": "Spring Boot goals",
     "id": 682,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13064,7 +13064,7 @@
     "explanation": "The transcript cites DispatcherServlet, component scan, view resolver, data source, and other configuration as manual work.",
     "topic": "Spring Boot goals",
     "id": 683,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -13082,7 +13082,7 @@
     "explanation": "Spring Boot is introduced as a way to reduce repeated setup and get production-ready features quickly.",
     "topic": "Spring Boot goals",
     "id": 684,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13103,7 +13103,7 @@
     "explanation": "Each pairing is directly supported by the Spring Boot section of the transcript.",
     "topic": "Spring Boot goals",
     "id": 685,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13121,7 +13121,7 @@
     "explanation": "Spring Initializr is described as the starting point at start.spring.io.",
     "topic": "Spring Initializr",
     "id": 686,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13139,7 +13139,7 @@
     "explanation": "The transcript's Spring Initializr example selects Maven as the build tool.",
     "topic": "Spring Initializr",
     "id": 687,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13157,7 +13157,7 @@
     "explanation": "The project is created using Java.",
     "topic": "Spring Initializr",
     "id": 688,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13175,7 +13175,7 @@
     "explanation": "The transcript explicitly describes snapshots as versions still being developed.",
     "topic": "Spring Initializr",
     "id": 689,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13193,7 +13193,7 @@
     "explanation": "The transcript compares Group ID to a package name and Artifact ID to the project name.",
     "topic": "Spring Initializr",
     "id": 690,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13211,7 +13211,7 @@
     "explanation": "The demonstrated artifact ID is the project name.",
     "topic": "Spring Initializr",
     "id": 691,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13229,7 +13229,7 @@
     "explanation": "The transcript selects Jar packaging.",
     "topic": "Spring Initializr",
     "id": 692,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13247,7 +13247,7 @@
     "explanation": "The example takes properties as the configuration format.",
     "topic": "Spring Initializr",
     "id": 693,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13265,7 +13265,7 @@
     "explanation": "The transcript says Spring Web is used to build web applications and RESTful applications using Spring MVC.",
     "topic": "Spring Initializr",
     "id": 694,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13286,7 +13286,7 @@
     "explanation": "All four steps are explicitly shown in the project setup walkthrough.",
     "topic": "Spring Initializr",
     "id": 695,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13304,7 +13304,7 @@
     "explanation": "The transcript demonstrates importing the extracted project as an existing Maven project.",
     "topic": "Spring Initializr",
     "id": 696,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13322,7 +13322,7 @@
     "explanation": "The transcript points to source main Java and source main resources in the generated project.",
     "topic": "Spring Initializr",
     "id": 697,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -13340,7 +13340,7 @@
     "explanation": "The application is shown launching on Tomcat at port 8080.",
     "topic": "Spring Initializr",
     "id": 698,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -13358,7 +13358,7 @@
     "explanation": "The material repeatedly recommends a latest released version rather than a snapshot.",
     "topic": "Spring Initializr",
     "id": 699,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14204,7 +14204,7 @@
     "explanation": "Profiles are introduced for dev, QA, staging, production, and other environment-specific configuration.",
     "topic": "Profiles",
     "id": 745,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14222,7 +14222,7 @@
     "explanation": "The transcript uses application-dev.properties.",
     "topic": "Profiles",
     "id": 746,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14240,7 +14240,7 @@
     "explanation": "The transcript uses application-prod.properties.",
     "topic": "Profiles",
     "id": 747,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14258,7 +14258,7 @@
     "explanation": "The transcript states that application.properties supplies the default configuration when no profile is active.",
     "topic": "Profiles",
     "id": 748,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14276,7 +14276,7 @@
     "explanation": "The example activates the production profile using spring.profiles.active=prod.",
     "topic": "Profiles",
     "id": 749,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -14294,7 +14294,7 @@
     "explanation": "The example states that default and active-profile properties are merged and the profile has higher priority.",
     "topic": "Profiles",
     "id": 750,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -14314,7 +14314,7 @@
     "explanation": "All three positive statements are directly illustrated by the dev/prod logging example.",
     "topic": "Profiles",
     "id": 751,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -14389,7 +14389,7 @@
     "explanation": "Each point is explicitly demonstrated.",
     "topic": "Profiles",
     "id": 755,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -14407,7 +14407,7 @@
     "explanation": "Profile-specific configuration has higher priority when merged with the default configuration.",
     "topic": "Profiles",
     "id": 756,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15342,7 +15342,7 @@
     "explanation": "The transcript describes implementing CommandLineRunner so the DAO query can be fired at application startup.",
     "topic": "Spring Boot startup hooks",
     "id": 807,
-    "category": "Spring Boot startup hooks"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15360,7 +15360,7 @@
     "explanation": "The transcript says CommandLineRunner is one of the interfaces present in Spring Boot and uses it for startup execution.",
     "topic": "Spring Boot startup hooks",
     "id": 808,
-    "category": "Spring Boot startup hooks"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15378,7 +15378,7 @@
     "explanation": "The example uses CommandLineRunner to execute the DAO query at startup.",
     "topic": "Spring Boot startup hooks",
     "id": 809,
-    "category": "Spring Boot startup hooks"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15396,7 +15396,7 @@
     "explanation": "The example shows Boot starting the application and then invoking configured application logic.",
     "topic": "Spring Boot startup hooks",
     "id": 810,
-    "category": "Spring Boot startup hooks"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15414,7 +15414,7 @@
     "explanation": "The transcript says Spring Initializr adds spring-boot-starter-test, which brings in common testing dependencies.",
     "topic": "Spring Boot testing",
     "id": 811,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15432,7 +15432,7 @@
     "explanation": "The transcript checks the effective POM and finds Mockito under starter-test.",
     "topic": "Spring Boot testing",
     "id": 812,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15450,7 +15450,7 @@
     "explanation": "The transcript describes it as bringing in the dependencies typically used for unit tests.",
     "topic": "Spring Boot testing",
     "id": 813,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15470,7 +15470,7 @@
     "explanation": "The material supports the first three statements and does not associate starter-test with Actuator.",
     "topic": "Spring Boot testing",
     "id": 814,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15488,7 +15488,7 @@
     "explanation": "The transcript says Mockito tests are faster and should avoid Spring context where possible.",
     "topic": "Spring Boot testing",
     "id": 815,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15506,7 +15506,7 @@
     "explanation": "The transcript presents both dependency provisioning and context-based testing as separate concerns.",
     "topic": "Spring Boot testing",
     "id": 816,
-    "category": "Spring Boot testing"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15524,7 +15524,7 @@
     "explanation": "The transcript calls it the parent POM and explains that version management is inherited.",
     "topic": "Spring Boot Maven integration",
     "id": 817,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15542,7 +15542,7 @@
     "explanation": "The transcript traces spring-boot-starter-parent upward to Spring Boot Dependencies.",
     "topic": "Spring Boot Maven integration",
     "id": 818,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15560,7 +15560,7 @@
     "explanation": "The transcript says versions are managed centrally by the parent/dependencies POM.",
     "topic": "Spring Boot Maven integration",
     "id": 819,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15578,7 +15578,7 @@
     "explanation": "The transcript explicitly demonstrates version inheritance from the parent POM.",
     "topic": "Spring Boot Maven integration",
     "id": 820,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15596,7 +15596,7 @@
     "explanation": "The Spring Boot Maven Plugin is introduced for convenient application execution and image building.",
     "topic": "Spring Boot Maven integration",
     "id": 821,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15614,7 +15614,7 @@
     "explanation": "The transcript explicitly runs spring-boot:run through Maven.",
     "topic": "Spring Boot Maven integration",
     "id": 822,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15632,7 +15632,7 @@
     "explanation": "The transcript says the plugin can also be used to build container images.",
     "topic": "Spring Boot Maven integration",
     "id": 823,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15652,7 +15652,7 @@
     "explanation": "The transcript explicitly presents Maven and Spring Boot as a strong pairing.",
     "topic": "Spring Boot Maven integration",
     "id": 824,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15670,7 +15670,7 @@
     "explanation": "The starter bundles the related dependencies so they can be brought in through one dependency descriptor.",
     "topic": "Spring Boot Maven integration",
     "id": 825,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15691,7 +15691,7 @@
     "explanation": "The transcript describes the web starter as containing the related components needed for Web MVC.",
     "topic": "Spring Boot Maven integration",
     "id": 826,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15709,7 +15709,7 @@
     "explanation": "The transcript explains that versions are centrally managed and inherited.",
     "topic": "Spring Boot Maven integration",
     "id": 827,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15727,7 +15727,7 @@
     "explanation": "The Spring Initializr Gradle example selects Gradle Groovy.",
     "topic": "Spring Boot with Gradle",
     "id": 828,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15745,7 +15745,7 @@
     "explanation": "The project uses Gradle Groovy as the build tool DSL but keeps Java as the application language.",
     "topic": "Spring Boot with Gradle",
     "id": 829,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15763,7 +15763,7 @@
     "explanation": "The example selects properties as the configuration format.",
     "topic": "Spring Boot with Gradle",
     "id": 830,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15781,7 +15781,7 @@
     "explanation": "The Gradle example uses Jar packaging.",
     "topic": "Spring Boot with Gradle",
     "id": 831,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -15799,7 +15799,7 @@
     "explanation": "The example adds Spring Web for web applications including RESTful applications using Spring MVC.",
     "topic": "Spring Boot with Gradle",
     "id": 832,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15817,7 +15817,7 @@
     "explanation": "The transcript explicitly says Gradle inherits the project layout from Maven.",
     "topic": "Spring Boot with Gradle",
     "id": 833,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15837,7 +15837,7 @@
     "explanation": "The fourth statement contradicts the transcript, which says Spring Web uses Apache Tomcat as the default embedded container.",
     "topic": "Spring Boot with Gradle",
     "id": 834,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15855,7 +15855,7 @@
     "explanation": "The transcript shows an Eclipse error around java.lang.Object and then configures the build path.",
     "topic": "Spring Boot with Gradle",
     "id": 835,
-    "category": "Spring Boot with Gradle"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15873,7 +15873,7 @@
     "explanation": "The transcript describes the starter as bringing together Spring Boot starter components, Jackson, Tomcat, converters and Web MVC.",
     "topic": "Spring Boot starter composition",
     "id": 836,
-    "category": "Spring Boot starter composition"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15891,7 +15891,7 @@
     "explanation": "This is the convenience the transcript attributes to starter dependencies.",
     "topic": "Spring Boot starter composition",
     "id": 837,
-    "category": "Spring Boot starter composition"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15909,7 +15909,7 @@
     "explanation": "The transcript traces the parent chain through Spring Boot Starter Parent to Spring Boot Dependencies.",
     "topic": "Spring Boot Maven integration",
     "id": 838,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15927,7 +15927,7 @@
     "explanation": "The parent POM is a Maven configuration mechanism, not a browser library.",
     "topic": "Spring Boot Maven integration",
     "id": 839,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15945,7 +15945,7 @@
     "explanation": "The transcript discusses starters and parent version management as separate but complementary concepts.",
     "topic": "Spring Boot Maven integration",
     "id": 840,
-    "category": "Spring Boot Maven integration"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15963,7 +15963,7 @@
     "explanation": "The transcript says Spring Boot automatically defines a component scan, while plain Spring requires it to be specified.",
     "topic": "Spring Boot vs plain Spring",
     "id": 841,
-    "category": "Spring Boot vs plain Spring"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -15981,7 +15981,7 @@
     "explanation": "The transcript explicitly removes SpringApplication when eliminating Boot.",
     "topic": "Spring Boot vs plain Spring",
     "id": 842,
-    "category": "Spring Boot vs plain Spring"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -15999,7 +15999,7 @@
     "explanation": "The transcript switches from SpringApplication to AnnotationConfigApplicationContext.",
     "topic": "Spring Boot vs plain Spring",
     "id": 843,
-    "category": "Spring Boot vs plain Spring"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16017,7 +16017,7 @@
     "explanation": "The transcript says Boot automatically defines component scan on the package containing the configuration, whereas plain Spring needs it declared.",
     "topic": "Spring Boot vs plain Spring",
     "id": 844,
-    "category": "Spring Boot vs plain Spring"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16037,7 +16037,7 @@
     "explanation": "The transcript shows the first three as Boot functionality; it does not claim Boot creates every database schema automatically.",
     "topic": "Spring Boot vs plain Spring",
     "id": 845,
-    "category": "Spring Boot vs plain Spring"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16073,7 +16073,7 @@
     "explanation": "The profile example merges default and profile-specific values with profile values taking priority.",
     "topic": "Profiles",
     "id": 847,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16221,7 +16221,7 @@
     "explanation": "This sequence synthesizes the order and roles of the Spring Boot features covered in the source.",
     "topic": "Integrated Spring Boot lifecycle concepts",
     "id": 855,
-    "category": "Integrated Spring Boot lifecycle concepts"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16260,7 +16260,7 @@
     "explanation": "All four statements are directly supported by the Spring Boot material.",
     "topic": "Integrated Spring Boot",
     "id": 857,
-    "category": "Integrated Spring Boot"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16332,7 +16332,7 @@
     "explanation": "The transcript uses @Autowired for the dependency relationship.",
     "topic": "Spring Boot dependency injection",
     "id": 861,
-    "category": "Spring Boot dependency injection"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16350,7 +16350,7 @@
     "explanation": "The transcript explains that running the Spring Boot application class obtains an ApplicationContext.",
     "topic": "Spring Boot application context",
     "id": 862,
-    "category": "Spring Boot application context"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16368,7 +16368,7 @@
     "explanation": "The transcript says Spring Boot automatically scans the package where the main application class is present.",
     "topic": "Spring Boot component scan",
     "id": 863,
-    "category": "Spring Boot component scan"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16386,7 +16386,7 @@
     "explanation": "This is one of the things explicitly contrasted with plain Spring in split 1.",
     "topic": "Spring Boot component scan",
     "id": 864,
-    "category": "Spring Boot component scan"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16406,7 +16406,7 @@
     "explanation": "The first three describe the Boot/Spring behavior; the fourth is the opposite of dependency injection.",
     "topic": "Spring Boot dependency injection",
     "id": 865,
-    "category": "Spring Boot dependency injection"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16460,7 +16460,7 @@
     "explanation": "The profile example explicitly uses different logging levels for different environments.",
     "topic": "Profiles",
     "id": 868,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16517,7 +16517,7 @@
     "explanation": "All four are listed as features that help with fast application development.",
     "topic": "Spring Boot goals",
     "id": 871,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16538,7 +16538,7 @@
     "explanation": "All four are listed in the transcript as production-readiness features.",
     "topic": "Spring Boot goals",
     "id": 872,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16622,7 +16622,7 @@
     "explanation": "These are the exact mechanics demonstrated.",
     "topic": "Profiles",
     "id": 876,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16640,7 +16640,7 @@
     "explanation": "The transcript warns that older material may show spring-boot-starter-web.",
     "topic": "Spring Boot version-specific starters",
     "id": 877,
-    "category": "Spring Boot version-specific starters"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16658,7 +16658,7 @@
     "explanation": "The transcript says earlier Boot versions might show spring-boot-starter-test.",
     "topic": "Spring Boot version-specific starters",
     "id": 878,
-    "category": "Spring Boot version-specific starters"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16676,7 +16676,7 @@
     "explanation": "This warning is specifically intended to prevent confusion when seeing earlier examples.",
     "topic": "Spring Boot version-specific starters",
     "id": 879,
-    "category": "Spring Boot version-specific starters"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -16784,7 +16784,7 @@
     "explanation": "The transcript says the active profile values are merged with the defaults from application.properties.",
     "topic": "Profiles",
     "id": 885,
-    "category": "Profiles"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16856,7 +16856,7 @@
     "explanation": "This is an integrated source distinction; the material separates presentation convenience from Boot's application setup role.",
     "topic": "Spring Boot ecosystem context",
     "id": 889,
-    "category": "Spring Boot ecosystem context"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Easy",
@@ -16928,7 +16928,7 @@
     "explanation": "Default logging is named as one of Boot's production-readiness conveniences.",
     "topic": "Spring Boot goals",
     "id": 893,
-    "category": "Spring Boot goals"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -16946,7 +16946,7 @@
     "explanation": "The Initializr example uses Java, a released Boot version, Spring Web, Jar packaging and properties.",
     "topic": "Spring Initializr",
     "id": 894,
-    "category": "Spring Initializr"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
@@ -17002,7 +17002,7 @@
     "explanation": "The transcript specifically warns that older examples may show the older starter names.",
     "topic": "Spring Boot version-specific starters",
     "id": 897,
-    "category": "Spring Boot version-specific starters"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Hard",
@@ -17063,7 +17063,7 @@
     "explanation": "Each feature is assigned a distinct role in the transcripts.",
     "topic": "Integrated Spring Boot features",
     "id": 900,
-    "category": "Integrated Spring Boot features"
+    "category": "Spring Boot"
   },
   {
     "difficulty": "Medium",
